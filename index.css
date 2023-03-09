@@ -1,0 +1,545 @@
+/* header css starts */
+
+.input {
+  border: none;
+  width: 130px;
+  color: black;
+
+  /* background-color: aquamarine; */
+}
+.searchButton {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 110px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(255, 174, 22, 0.703);
+  padding: 5px;
+  color: orange;
+  font-weight: 700;
+}
+.firstText {
+  font-weight: 600;
+}
+.locationIcon {
+  color: orange;
+}
+.lastText {
+  font-weight: 600;
+  font-size: large;
+}
+/* header css ends */
+
+/* banner css starts */
+.bannerDiv {
+  background-color: orange;
+  /* height: 400px; */
+}
+
+.bannerPara {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 18%;
+}
+.starvingText {
+  margin-left: 18%;
+  margin-top: 10%;
+}
+.cardDiv {
+  margin-left: 18%;
+  width: 80%;
+}
+.deliveryButton {
+  border: none;
+  color: rgb(86, 7, 7);
+  background-color: rgba(255, 0, 0, 0.204);
+}
+.bannerEmailInput {
+  width: 70%;
+  background-color: rgba(128, 128, 128, 0.222);
+  border: none;
+  padding: 5px;
+  padding: auto;
+  border-radius: 5px;
+}
+.bannerSearchButton {
+  color: white;
+  border: none;
+  background-color: #ff7a7a;
+  font-size: small;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bannerLocationIcon {
+  color: orange;
+}
+.bannerImg {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+@media only screen and (max-width: 767px) {
+  .bannerDiv {
+    width: 100%;
+  }
+  .cardDiv {
+    /* text-align: center; */
+    margin-left: 0;
+    width: 100%;
+    padding: 5px;
+  }
+  .bannerPara {
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 8%;
+  }
+  .starvingText {
+    margin-left: 8%;
+    margin-top: 10%;
+  }
+}
+
+/* banner css ends */
+/* item css starts */
+.imageSecondDiv {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  /* width: 300px; */
+}
+.itemImage {
+  width: 100%;
+}
+.itemText {
+  position: relative;
+}
+.please {
+  display: flex;
+  align-items: flex-start !important;
+}
+.offDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  /* left: 5%; */
+  background-color: orange;
+  color: white;
+  width: 80px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.percentage {
+  line-height: 0;
+}
+.off {
+  line-height: 0;
+}
+.text {
+  justify-content: center;
+}
+/* item css ends */
+/* how does it works css starts */
+.title {
+  font-weight: 700;
+  color: #ff7a7a;
+}
+.icon {
+  width: 100px;
+}
+.iconText {
+  font-weight: 300;
+  font-size: small;
+}
+.iconTitle {
+  font-weight: 700;
+}
+
+/* how does it works css ends */
+/* popular item css starts */
+.row {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 28%;
+}
+.please {
+  flex-basis: 20%;
+}
+.popularItem {
+  width: 100%;
+}
+.firstText {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.secondText {
+  color: orange;
+  line-height: 0;
+  margin-top: 0;
+}
+.thirdText {
+  font-weight: 700;
+}
+.orderButton {
+  border: none;
+  background-color: #ff7a7a;
+  color: #fff;
+  padding: 5px;
+  font-size: small;
+  border-radius: 5px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  .row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .col {
+    flex-basis: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* popular item css ends */
+/* red resturant starts*/
+.redResImg {
+  width: 100%;
+  border-radius: 10px;
+  /* position: relative; */
+}
+.redResSecImg {
+  width: 30%;
+}
+.starIcon {
+  font-size: small;
+}
+.redResSecondDiv {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* background-color: red; */
+  width: 80%;
+}
+.redResButton {
+  border: none;
+  background-color: #ff7a7a;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  font-size: small;
+  color: #fff;
+  margin-right: 170px;
+}
+.redResOffPos {
+  position: relative;
+}
+.positionDiv {
+  position: absolute;
+  margin: auto;
+  left: 10%;
+  top: 10%;
+}
+.offButton {
+  border: none;
+  background-color: #e32f13;
+  color: #fff;
+  padding: 10px;
+  font-size: small;
+  border-radius: 5px;
+}
+.fastButton {
+  border: none;
+  background-color: #e9e026;
+  color: #fff;
+  padding: 10px;
+  font-size: small;
+  border-radius: 5px;
+}
+.viewAllButton {
+  border: none;
+  padding: 10px;
+  font-size: small;
+  border-radius: 5px;
+  color: #fff;
+  background-color: orange;
+  width: 8%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .redResButton {
+    margin-right: 210px;
+  }
+  .viewAllButton {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 676px) {
+  .redResButton {
+    margin-right: 210px;
+  }
+  .viewAllButton {
+    width: 30%;
+  }
+}
+
+/* red resturant ends */
+
+/* search by food starts */
+
+.viewallText {
+  color: orange;
+}
+.searchbyFoodDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+}
+.leftImage {
+  width: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  text-align: center;
+  justify-content: center;
+}
+.rightImage {
+  width: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  text-align: center;
+  justify-content: center;
+}
+.leftDiv {
+  background-color: orange;
+  font-size: small;
+  width: 30px;
+    height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rightDiv {
+  background-color: orange;
+  font-size: small;
+  width: 30px;
+    height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.roundedImage {
+  width: 100%;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 500px) {
+  .searchText {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .searchbyFoodDiv {
+    margin-top: -50px;
+  }
+  .leftDiv {
+    width: 10%;
+  }
+  .rightDiv {
+    width: 10%;
+  }
+}
+
+/* search by food ends */
+/* install app starts */
+.firstDiv {
+  display: flex;
+}
+.secondDiv {
+  display: flex;
+}
+.thirdDiv {
+  display: flex;
+}
+.secondcsrd {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(255, 174, 22, 0.703);
+}
+.iconImage {
+  width: 60px;
+}
+.textGradient {
+  /* Set the background color */
+  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+}
+.shadowImage {
+  width: 50%;
+  margin-top: 15%;
+}
+.iphoneImage {
+  width: 50%;
+  /* margin-top: 5%; */
+  margin-left: -5%;
+}
+
+.imageDiv {
+  margin-left: 50%;
+  /* background-color: #dd4c4f; */
+}
+.appstoreImage {
+  width: 25%;
+}
+.googleplayImage {
+  width: 25%;
+}
+.heading{
+  color: orange;
+}
+.paragraph {
+  font-size: small;
+  font-weight: 300;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .imageDiv {
+  margin-left: 0%;
+  /* background-color: #dd4c4f; */
+}
+.shadowImage {
+  width: 50%;
+  margin-top: 15%;
+}
+.iphoneImage {
+  width: 50%;
+  /* margin-top: 5%; */
+  margin-left: -5%;
+}
+.appstoreImage {
+  width: 30%;
+}
+.googleplayImage {
+  width: 30%;
+}
+}
+
+/* install app ends */
+/* best deal section starts */
+.rightImagee{
+  width: 100%;
+  height: 300px;
+}
+.spanText{
+  color: orange;
+}
+.proccedButton{
+    border: none;
+  padding: 10px;
+  font-size: small;
+  border-radius: 5px;
+  color: #fff;
+  background-color: orange;
+ width: 50%;
+}
+.textDiv{
+  padding: 40px;
+}
+/* best deal section ends*/
+
+/* last banner starts */
+
+.lastBanner{
+background-image: url(./image/lastbanner.png);
+/* width: 100%; */
+height: 250px;
+}
+.bodyText{
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align:center;
+}
+@media only screen and (max-width: 500px) {
+.bodyText{
+ margin-top: 40px;
+  font-size: 1.5rem;
+ 
+}
+}
+/* last banner ends */
+/* footer starts */
+.paraText p{
+  line-height: 8px;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: grey;
+/* margin-left: 10%; */
+}
+.subscribeButton{
+  border: none;
+  background-color: #f3cb1c;
+  border-radius: 5px;
+  /* font-size: small; */
+}
+.footerText{
+  margin-left: 32%;
+}
+.footerPara{
+  margin-left: 32%;
+}
+.footerIcon{
+  margin-left: 32%;
+}
+.footerInput{
+  margin-left: 32%;
+}
+@media only screen and (max-width: 500px) {
+
+.footerText{
+  margin-left: 0%;
+  text-align: start;
+}
+.footerInput{
+  margin-left: 0%;
+}
+.div{
+  margin-left: 10%;
+}
+.footerPara{
+  margin-left: 0%;
+}
+.footerIcon{
+  margin-left: 0%;
+}
+}
+/* footer ends */

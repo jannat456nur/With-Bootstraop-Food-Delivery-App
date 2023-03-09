@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font awesome kit -->
+
+    <script
+      src="https://kit.fontawesome.com/d5d25df65b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar section starts -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light container"
+      style="background-color: #ffffff;"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./image/Logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span class="firstText">
+                  Deliver to:
+                </span>
+                <i class="fa-solid fa-location-dot locationIcon"></i>
+                Current Location
+                <span class="lastText">Mohammadpur Bus Stand,Dhaka</span>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="d-flex text-center inputDiv">
+              <i
+                class="fa-solid fa-magnifying-glass me-2"
+                style="
+                  text-align: center;
+                  margin-top: 10px;
+                  margin-left: 10px;
+                  color: orange;
+                "
+              ></i>
+              <input
+                class="form-control me-2 input"
+                type="search"
+                placeholder="Search food"
+              />
+            </div>
+
+            <button class="searchButton" type="submit">
+              <i class="fa-solid fa-user"></i>
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar section ends -->
+    <!-- banner section starts -->
+    <div class="row g-0 bannerDiv">
+      <div class="col-sm-12 col-md-6">
+        <!-- <div class="firstDiv"> -->
+          <h1 class="text-white starvingText">Are you starving?</h1>
+       
+          <p class="bannerPara">
+            Within a few clicks, find meals that are accessible near you
+          </p>
+        <!-- </div> -->
+        <div class="card cardDiv">
+          <div class="card-body">
+            <button class="deliveryButton">
+              <i class="fa-solid fa-bicycle"></i>
+              Delivery
+            </button>
+            <button class="deliveryButton">
+              <i class="fa-solid fa-bag-shopping"></i>
+              Pickup
+            </button>
+            <div>
+              <i class="fa-solid fa-location-dot bannerLocationIcon"></i>
+              <input
+                type="email"
+                placeholder="Enter Your address"
+                class="mt-4 bannerEmailInput"
+              />
+              <button class="bannerSearchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Findfood
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img
+          class="bannerImg"
+          src="./image/banner-removebg-preview.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- banner section ends -->
+    <!-- item section starts -->
+    <section class="container">
+      <div>
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="p-3">
+              <div class="itemText">
+                <div class="imageSecondDiv">
+                  <img src="./image/Image (1).png" class="itemImage" alt="" />
+
+                  <div class="offDiv">
+                    <h1>15</h1>
+                    <div class="text">
+                      <p class="percentage">%</p>
+                      <p class="off">Off</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="p-3">
+              <div class="itemText">
+                <div class="imageSecondDiv">
+                  <img src="./image/Image (1).png" class="itemImage" alt="" />
+
+                  <div class="offDiv">
+                    <h1>15</h1>
+                    <div class="text">
+                      <p class="percentage">%</p>
+                      <p class="off">Off</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="p-3">
+              <div class="itemText">
+                <div class="imageSecondDiv">
+                  <img src="./image/Image (1).png" class="itemImage" alt="" />
+
+                  <div class="offDiv">
+                    <h1>15</h1>
+                    <div class="text">
+                      <p class="percentage">%</p>
+                      <p class="off">Off</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="p-3">
+              <div class="itemText">
+                <div class="imageSecondDiv">
+                  <img src="./image/Image (1).png" class="itemImage" alt="" />
+
+                  <div class="offDiv">
+                    <h1>15</h1>
+                    <div class="text">
+                      <p class="percentage">%</p>
+                      <p class="off">Off</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- item section ends -->
+    <!-- how does it works starts -->
+    <section class="container">
+      <h6 class="title text-center mt-5">How does it work</h6>
+      <div class="mt-5">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="pt-3 text-center">
+              <img src="./image/Icons (1).png" class="icon" alt="" />
+              <div>
+                <p class="iconTitle">pay advanced</p>
+                <p class="iconText">
+                  Choose the location where
+                  <br />
+                  your food will be delivered.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="pt-3 text-center">
+              <img src="./image/Icons (2).png" class="icon" alt="" />
+              <div>
+                <p class="iconTitle">pay advanced</p>
+                <p class="iconText">
+                  Choose the location where
+                  <br />
+                  your food will be delivered.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="pt-3 text-center">
+              <img src="./image/Icons.png" class="icon" alt="" />
+              <div>
+                <p class="iconTitle">pay advanced</p>
+                <p class="iconText">
+                  Choose the location where
+                  <br />
+                  your food will be delivered.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-3 col-md-3">
+            <div class="pt-3 text-center">
+              <img src="./image/Map Marker.png" alt="" class="icon" />
+              <div>
+                <p class="iconTitle">pay advanced</p>
+                <p class="iconText">
+                  Choose the location where
+                  <br />
+                  your food will be delivered.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- how does it works ends -->
+    <!-- popular item starts -->
+    <section class="container">
+      <h1 class="text-center py-5 fw-bold">Popular Items</h1>
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col-12 col-lg-2 col-md-2">
+            <div class="p-3 text-center">
+              <img src="./image/Frame 40 (1).png" alt="" class="popularItem" />
+              <p class="firstText">Cheese Burger</p>
+              <p class="secondText">
+                <i class="fa-solid fa-location-dot"></i>
+                Burger Arena
+              </p>
+              <p class="thirdText">$3.88</p>
+              <button class="orderButton">Order Now</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-2">
+            <div class="p-3 text-center">
+              <img src="./image/Frame 40 (1).png" alt="" class="popularItem" />
+              <p class="firstText">Cheese Burger</p>
+              <p class="secondText">
+                <i class="fa-solid fa-location-dot"></i>
+                Burger Arena
+              </p>
+              <p class="thirdText">$3.88</p>
+              <button class="orderButton">Order Now</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-2">
+            <div class="p-3 text-center">
+              <img src="./image/Frame 40 (1).png" alt="" class="popularItem" />
+              <p class="firstText">Cheese Burger</p>
+              <p class="secondText">
+                <i class="fa-solid fa-location-dot"></i>
+                Burger Arena
+              </p>
+              <p class="thirdText">$3.88</p>
+              <button class="orderButton">Order Now</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-2">
+            <div class="p-3 text-center">
+              <img src="./image/Frame 40 (1).png" alt="" class="popularItem" />
+              <p class="firstText">Cheese Burger</p>
+              <p class="secondText">
+                <i class="fa-solid fa-location-dot"></i>
+                Burger Arena
+              </p>
+              <p class="thirdText">$3.88</p>
+              <button class="orderButton">Order Now</button>
+            </div>
+          </div>
+             <div class="col-12 col-lg-2 col-md-2">
+            <div class="p-3 text-center">
+              <img src="./image/Frame 40 (1).png" alt="" class="popularItem" />
+              <p class="firstText">Cheese Burger</p>
+              <p class="secondText">
+                <i class="fa-solid fa-location-dot"></i>
+                Burger Arena
+              </p>
+              <p class="thirdText">$3.88</p>
+              <button class="orderButton">Order Now</button>
+            </div>
+          </div>
+      </div>
+    </section>
+  
+    <!-- popular item ends -->
+
+<section class="container text-center">
+  <h1 class="mt-4">Feat</h1>
+  <h1 class="mb-5">Red Resturant</h1>
+  <div class="row ">
+  <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+    <div class="redResOffPos">
+      <img src="./image/1.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-regular fa-timer"></i> fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo.png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star starIcon "></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+      <div class="redResOffPos">
+      <img src="./image/2.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-sharp fa-solid fa-timer"></i>fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (2).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star starIcon "></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+     <div class="redResOffPos">
+      <img src="./image/3.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-solid fa-timer"></i> fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (1).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star"></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+  <div class="redResOffPos">
+      <img src="./image/4.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-solid fa-timer"></i> fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (2).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star"></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+</div>
+</section>
+<section class="container text-center  mt-5">
+  <div class="row ">
+  <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+    <div class="redResOffPos">
+      <img src="./image/1.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-regular fa-timer"></i> fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (5).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star starIcon "></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+      <div class="redResOffPos">
+      <img src="./image/2.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-sharp fa-solid fa-timer"></i>fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (6).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star starIcon "></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+     <div class="redResOffPos">
+      <img src="./image/3.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-solid fa-timer"></i> fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (7).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star"></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+ 
+  </div>
+    <div class="col-sm-12 col-md-3 col-lg-3 p-3">
+  <div class="redResOffPos">
+      <img src="./image/4.png" alt="" class="redResImg ">
+      <div class="positionDiv">
+        <button class="offButton">20% off</button>
+        <button class="fastButton"><i class="fa-solid fa-timer"></i> fast</button>
+      </div>
+    </div>
+    <div class="redResSecondDiv">
+      <img src="./image/Restaruant Logo (8).png" alt="" class="redResSecImg ">
+      <div class=" ms-3">
+        <p class="mb-0" >Food world</p>
+        <p class="starIcon"> <i class="fa-solid fa-star"></i> 46</p>
+      </div>
+   
+    </div>
+       <button class="redResButton mt-3">opens tommorow</button>
+  </div>
+</div>
+<button class="viewAllButton mt-5">View All <i class="fa-solid fa-arrow-right"></i></button>
+</section>
+    <!-- Feat red resturant section ends -->
+    <!-- search by food section starts -->
+
+    <section class="container" style="background-color: #FEFAF1;">
+    <div class="row g-0">
+      <div class="col-sm-12 col-md-6 col-12 col-lg-6">
+        <p class="fw-bold fs-4 mt-2 p-5 searchText">Search by Food</p></div>
+    <div class="col-sm-12 col-md-6 col-12 col-lg-6">
+       <div class="searchbyFoodDiv p-5 ">
+      <p class="viewallText mt-3">View All <i class="fa-solid fa-arrow-right"></i></p>
+   
+         <div class="leftDiv">
+              <img src="./image/Icon (1).png" alt="" class="leftImage">
+         </div>
+      <div class="rightDiv">
+       <img src="./image/Icon.png" alt="" class="rightImage">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div class="col-12 col-lg-2 col-md-2">
+      <div class="p-3 ">
+        <img src="./image/101.png" alt="" class="roundedImage">
+        <p class="fw-bold fs-6 text-center mt-5">Pizza</p>
+      </div>
+    </div>
+    <div class="col-12  col-lg-2 col-md-2 col-sm-12">
+     <div class="p-3  ">
+        <img src="./image/102.png" alt="" class="roundedImage">
+        <p class="fw-bold fs-6 text-center mt-5">Pizza</p>
+      </div>
+    </div>
+    <div class=" col-12 col-lg-2 col-md-2 col-sm-12">
+     <div class="p-3 ">
+        <img src="./image/103.png" alt="" class="roundedImage">
+        <p class="fw-bold fs-6 text-center mt-5">Pizza</p>
+      </div>
+    </div>
+    <div class="col-12  col-lg-2 col-md-2 col-sm-12">
+    <div class="p-3 ">
+        <img src="./image/104.png" alt="" class="roundedImage">
+        <p class="fw-bold fs-6 text-center mt-5">Pizza</p>
+      </div>
+    </div>
+    <div class=" col-12 col-lg-2 col-md-2 col-sm-12">
+    <div class="p-3 ">
+        <img src="./image/105.png" alt="" class="roundedImage">
+        <p class="fw-bold fs-6 text-center mt-5">Pizza</p>
+      </div>
+    </div>
+    <div class="col-12  col-lg-2 col-md-2 col-sm-12">
+     <div class="p-3 ">
+        <img src="./image/106.png" alt="" class="roundedImage">
+        <p class="fw-bold fs-6 text-center mt-5">Pizza</p>
+      </div>
+    </div>
+ 
+  </div>
+</div>
+    </section>
+    <!-- search by food section ends -->
+    <!-- install ap section starts -->
+    <section class="container" style="background-color: #FEEFD0;">
+
+
+    <div class="secondcsrd ">
+
+    
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div class="col-12  col-lg-4 col-md-4 col-sm-12 ">
+      <div class="p-3 firstDiv mt-3">
+         <img src="./image/Icon (2).png" class="iconImage" alt="">
+    <p class="fw-bold fs-6 textGradient">Daily
+     <br> Discount</p></div>
+    </div>
+    <div class="col-12  col-lg-4 col-md-4 col-sm-12">
+      <div class="p-3 secondDiv mt-3"> 
+        <img src="./image/Icon (3).png" class="iconImage" alt="">
+    <p class="fw-bold fs-6 textGradient">Daily
+      <br> discount</p>
+  </div>
+    </div>
+    <div class="col-12  col-lg-4 col-md-4 col-sm-12 ">
+      <div class="p-3 thirdDiv mt-3">
+         <img src="./image/Icon (4).png" class="iconImage" alt="">
+    <p class="fw-bold fs-6 textGradient">Daily <br> discount</p>
+  </div>
+    </div>
+   
+  </div>
+
+    </section>
+    <section class="container" style="background-color: #FEEFD0;">
+      <!-- <div class="row g-0 ">
+  <div class="col-sm-12 col-md-6 col-lg-6 imageDiv "> 
+
+       <img src="./image/iPhone.png" alt="" class="shadowImage " >
+      <img src="./image/Shadow.png" alt="" class="iphoneImage">
+      </div>
+   <div class="col-sm-12 col-md-6 col-lg-6">
+    <p>vncb</p>
+  </div>
+</div> -->
+<div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" >
+    <div class="col-12  col-lg-6 col-md-6 col-sm-12 ">
+      <div class="p-3  mt-3 imageDiv">
+        <img src="./image/iPhone.png" alt="" class="shadowImage " >
+      <img src="./image/Shadow.png" alt="" class="iphoneImage">
+    </div>
+    
+   
+   
+  </div>
+  <div class="col-12  col-lg-6 col-md-6 col-sm-12">
+      <div class="p-3  mt-5"> 
+        <h3 class="fw-bold fs-4 ms-3 heading">
+    Install the App
+   </h3>
+   <p class="paragraph">It's never been easier to order food. Look for the <br> finest discounts and you'll be lost in a world of  <br>
+    delectable food.</p>
+    <div>
+      
+      <img src="./image/Google Play Download.png" class="googleplayImage " alt="">
+         <img src="./image/App Store Download Button.png" alt="" class="appstoreImage ">
+    </div>
+   
+
+  </div>
+    </div>
+       
+    </section>
+     <!-- install ap section ends -->
+    <!-- border section starts -->
+     <!-- <div style="background-color: orange; width: 100%; height: 150px;  border-radius: 0% 50% 60% 40% / 10%" class="container">
+<p>hjhm</p>
+    </div> -->
+    <!-- border section ends -->
+    <!-- best deals section starts -->
+    <section class="container mt-5">
+      <div class="row g-0">
+          <div class="col-12 col-md-4 col-sm-12 textDiv"><h1 class="fw-bold fs-2">
+            Best deals <span class="spanText">Crispy</span> <br> <span class="spanText">Sandwiches</span>
+          </h1>
+        
+        <p>Enjoy the large size of sandwiches. Complete <br>
+perfect slice of sandwiches.</p>
+<button class="proccedButton mt-5">Procced Oreder  <i class="fa-solid fa-arrow-right"></i></button>
+</div>
+  <div class="col-sm-6 col-md-8"><img src="./image/Right.png" class="rightImagee" alt=""></div>
+
+</div>
+    </section>
+    <!-- best deals section ends -->
+
+    <!-- celebraty party section starts -->
+  <section class="container mt-5">
+      <div class="row g-0">
+          <div class="col-sm-6 col-md-8"><img src="./image/left.png" class="rightImagee" alt=""></div>
+          <div class="col-12 col-md-4 textDiv"><h1 class="fw-bold fs-2">
+            Best deals <span class="spanText">Crispy</span> <br> <span class="spanText">Sandwiches</span>
+          </h1>
+        
+        <p>Enjoy the large size of sandwiches. Complete <br>
+perfect slice of sandwiches.</p>
+<button class="proccedButton mt-5">Procced Oreder  <i class="fa-solid fa-arrow-right"></i></button>
+</div>
+
+
+</div>
+    </section>
+
+    <!-- celebraty party section ends -->
+    <!-- wanna hot pizza section starts -->
+      <section class="container mt-5">
+      <div class="row g-0">
+          <div class="col-12 col-md-4 textDiv"><h1 class="fw-bold fs-2">
+            Best deals <span class="spanText">Crispy</span> <br> <span class="spanText">Sandwiches</span>
+          </h1>
+        
+        <p>Enjoy the large size of sandwiches. Complete <br>
+perfect slice of sandwiches.</p>
+<button class="proccedButton mt-5">Procced Oreder  <i class="fa-solid fa-arrow-right"></i></button>
+</div>
+  <div class="col-sm-6 col-md-8"><img src="./image/Right2.png" class="rightImagee" alt=""></div>
+
+</div>
+    </section>
+    <!-- wanna hot pizza section ends -->
+<!-- last banner section starts -->
+<div class="card container lastBanner mt-5">
+  <div class="card-body bodyText">
+   Are you ready to order with <br> the best deals?
+  </div>
+</div>
+<!-- last banner section ends -->
+<!-- footer section starts -->
+
+<section class="container " style="background-color: black; color: white;">
+<div class="">
+   <h6 class=" fs-5 pt-5 ps-4 text-start " style="color: grey; margin-top: 5px;">Our Top cities</h6>
+</div>
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 ">
+    <div class="col-12 col-lg-3 col-md-3 col-sm-12 ">
+      <div class="p-3  paraText">
+        <p>Los Angeles</p>
+        <p>Washington DC</p>
+        <p>Seattle</p>
+        <p>Portland</p>
+        <p>Nashville</p>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+      <div class="p-3 paraText ">
+          <p>Los Angeles</p>
+        <p>Washington DC</p>
+        <p>Seattle</p>
+        <p>Portland</p>
+        <p>Nashville</p></div>
+    </div>
+    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+      <div class="p-3 paraText ">
+          <p>Los Angeles</p>
+        <p>Washington DC</p>
+        <p>Seattle</p>
+        <p>Portland</p>
+        <p>Nashville</p></div>
+    </div>
+    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+      <div class="p-3 paraText">
+          <p>Los Angeles</p>
+        <p>Washington DC</p>
+        <p>Seattle</p>
+        <p>Portland</p>
+        <p>Nashville</p>
+      </div>
+    </div>
+
+ 
+ 
+  </div>
+ <hr>
+ <div class="row g-0">
+  <div class="col-sm-6 col-md-6 col-lg-6">
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 ">
+    <div class="col-12 col-lg-1 col-md-1 col-sm-12">
+      <div class="p-3  paraText">
+        <p>Los </p>
+        <p>Washi</p>
+        <p>Seat</p>
+        <p>Portl</p>
+        <p>Nashe</p>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+      <div class="p-3 paraText ">
+          <p>Los Angeles</p>
+        <p>Washington DC</p>
+        <p>Seattle</p>
+        <p>Portland</p>
+        <p>Nashville</p></div>
+    </div>
+    <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+      <div class="p-3 paraText ">
+          <p>Los Angeles</p>
+        <p>Washington </p>
+        <p>Seattle</p>
+        <p>Portland</p>
+        <p>Nashville</p></div>
+    </div>
+   
+ 
+ 
+  </div>
+</div>
+  <div class="col-12 col-md-6 col-lg-6 paraText div" >
+    <p class="footerPara">Follow Us</p>
+    <p class="footerIcon">
+      <i class="fa-brands fa-facebook p-1">
+      
+    </i> <i class="fa-brands fa-instagram p-1"></i>
+    <i class="fa-brands fa-twitter p-1"></i>
+  </p>
+  <p  class="footerText">Receive exclusive offers in your mailbox</p>
+  <input class="footerInput" type="text" placeholder="Enter your mail">
+  <button class="subscribeButton">Subscribe</button>
+  </div>
+</div>
+
+</section>
+<!-- footer section ends -->
+   
+    <!-- js bundle link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
