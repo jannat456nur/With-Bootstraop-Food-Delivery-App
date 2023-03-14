@@ -72,10 +72,16 @@
 .bannerLocationIcon {
   color: orange;
 }
+.bannerImageDiv img{
+width: 80%;
+height: 100%;
+}
 .bannerImg {
-  text-align: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 10%;
+  width: 100%;
+  /* margin-top: 10%; */
 }
 @media only screen and (max-width: 767px) {
   .bannerDiv {
@@ -474,6 +480,7 @@
 .textDiv{
   padding: 40px;
 }
+
 /* best deal section ends*/
 
 /* last banner starts */
@@ -494,6 +501,12 @@ height: 250px;
  margin-top: 40px;
   font-size: 1.5rem;
  
+}
+a{
+  order: 2;
+}
+b{
+  order: 1;
 }
 }
 /* last banner ends */
